@@ -1,0 +1,17 @@
+{
+  "name": "project-standard-kit",
+  "owner": {
+    "name": "project-standard-kit maintainers"
+  },
+  "plugins": [
+    {
+      "name": "project-standard-kit",
+      "source": "./",
+      "description": "프로젝트 표준 틀과 project-setup 스킬",
+      "version": "0.14.0"
+    }
+  ],
+  "metadata": {
+    "description": "프로젝트 표준 틀과 project-setup 스킬 배포처"
+  }
+}
