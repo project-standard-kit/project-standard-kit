@@ -1,6 +1,6 @@
 {
   "name": "project-standard-kit",
-  "version": "0.14.0",
+  "version": "0.16.0",
   "description": "프로젝트 표준 틀(개발 규약·양식)과 project-setup 스킬: 질문에 고르기만 하면 문서·인프라 구성도·저장소·CI·배포까지 셋업",
   "author": { "name": "project-standard-kit maintainers" },
   "license": "MIT",

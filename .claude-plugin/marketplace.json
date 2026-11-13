@@ -8,7 +8,7 @@
       "name": "project-standard-kit",
       "source": "./",
       "description": "프로젝트 표준 틀과 project-setup 스킬",
-      "version": "0.14.0"
+      "version": "0.16.0"
     }
   ],
   "metadata": {

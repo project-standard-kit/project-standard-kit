@@ -3,7 +3,7 @@ title: Git과 버전
 type: standard
 part_of: "[[30 Areas/Development Standard/개발 규약|개발 규약]]"
 section: 5
-updated: 2026-11-07
+updated: 2026-11-13
 language: ko
 ---
 
@@ -29,6 +29,8 @@ language: ko
 
 Conventional Commits + 티켓 키: `<종류>(<범위>): <티켓 키> <요약>`
 
+- 커밋 메시지와 PR 제목의 정본은 이 절이다. 다른 문서는 형식을 다시 쓰지 않고 이 절을 가리킨다.
+
 - 예: `feat(rental): BOOK-14 예약 API 추가`
 - 종류: `feat` 기능, `fix` 버그, `refactor` 동작 변화 없는 구조 변경, `test`, `docs`, `chore` 빌드·설정, `perf`.
 - 범위는 도메인 이름(또는 모듈).
@@ -41,8 +43,8 @@ Conventional Commits + 티켓 키: `<종류>(<범위>): <티켓 키> <요약>`
 | 자리 | 언제 올리나 |
 |---|---|
 | MAJOR | DB·API가 이전과 호환되지 않게 바뀔 때 |
-| MINOR | 운영 배포(release)마다 |
-| PATCH | hotfix마다 |
+| MINOR | 호환되는 기능 추가가 들어간 운영 배포 |
+| PATCH | 그 외 운영 배포(수정·최적화·설정·문서)와 hotfix |
 
 - 태그는 `main`의 합친 커밋에만 붙인다. 태그를 지우거나 옮기지 않는다.
 - 첫 운영 배포는 `v0.1.0`이 기본이다. 정식 오픈 시점의 `v1.0.0`은 프로젝트가 정한다.
